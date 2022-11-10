@@ -1,0 +1,60 @@
+#form {
+  background-color: rgb(130, 24, 80);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 2px 5px 5px 5px rgba(35, 114, 159, 0.5);
+}
+
+.form-label {
+  color: white;
+}
+
+.btn {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  transform: scale(1.3);
+}
+
+.todo__list {
+  list-style: none;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.todo__card {
+  width: 250px;
+  background-color: rgb(154, 234, 5);
+  height: 400px;
+  padding: 30px;
+  border-radius: 15px;
+  color: white;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.important {
+  background-color: rgb(234, 5, 5);
+}
+
+.todo__card img {
+  width: 100%;
+}
+a{
+  color: black;
+}
+.nav-link {
+  color: black;
+  font-size:30px;
+}
+.btn-success{
+  color: black;
+}
